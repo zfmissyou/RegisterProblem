@@ -1,6 +1,7 @@
 D:\Code\Projects\C#\Projects\Developed\BulkBookWeb\Bulky.Models\bin\Debug\net6.0\BulkyBook.Models.deps.json
 D:\Code\Projects\C#\Projects\Developed\BulkBookWeb\Bulky.Models\bin\Debug\net6.0\BulkyBook.Models.dll
 D:\Code\Projects\C#\Projects\Developed\BulkBookWeb\Bulky.Models\bin\Debug\net6.0\BulkyBook.Models.pdb
+D:\Code\Projects\C#\Projects\Developed\BulkBookWeb\Bulky.Models\obj\Debug\net6.0\BulkyBook.Models.csproj.AssemblyReference.cache
 D:\Code\Projects\C#\Projects\Developed\BulkBookWeb\Bulky.Models\obj\Debug\net6.0\BulkyBook.Models.GeneratedMSBuildEditorConfig.editorconfig
 D:\Code\Projects\C#\Projects\Developed\BulkBookWeb\Bulky.Models\obj\Debug\net6.0\BulkyBook.Models.AssemblyInfoInputs.cache
 D:\Code\Projects\C#\Projects\Developed\BulkBookWeb\Bulky.Models\obj\Debug\net6.0\BulkyBook.Models.AssemblyInfo.cs

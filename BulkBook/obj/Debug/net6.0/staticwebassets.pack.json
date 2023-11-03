@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Code\\Projects\\C#\\Projects\\Developed\\BulkBookWeb\\BulkBook\\wwwroot\\images\\product\\8baf8f70-35e1-463d-a062-d4f743cf18dc.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\8baf8f70-35e1-463d-a062-d4f743cf18dc.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Projects\\C#\\Projects\\Developed\\BulkBookWeb\\BulkBook\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
       "Id": "D:\\Code\\Projects\\C#\\Projects\\Developed\\BulkBookWeb\\BulkBook\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
