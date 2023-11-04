@@ -57,25 +57,19 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23153.2, )"
+            },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[8.0.0-preview.2.23153.2, )"
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[8.0.0-rc.2.23480.2, )"
-            },
-            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
-              "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[8.0.0-preview.2.23153.2, )"
             },
             "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.0-rc.2.23480.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0-preview.2.23128.3, )"
             },
@@ -83,19 +77,15 @@
               "target": "Package",
               "version": "[8.0.0-preview.2.23128.3, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[8.0.0-rc.2.23480.1, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0-preview.2.23128.3, )"
             },
-            "Microsoft.Extensions.Identity.Stores": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.0-preview.2.23153.2, )"
+              "version": "[8.0.0-rc.2.23509.1, )"
             }
           },
           "imports": [
@@ -175,13 +165,15 @@
               "target": "Package",
               "version": "[8.0.0-preview.2.23153.2, )"
             },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23153.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0-rc.2.23480.1, )"
+              "version": "[8.0.0-preview.2.23128.3, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[8.0.0-preview.2.23128.3, )"
             },
@@ -194,10 +186,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0-preview.2.23128.3, )"
-            },
-            "Microsoft.Extensions.Identity.Stores": {
-              "target": "Package",
-              "version": "[8.0.0-preview.2.23153.2, )"
             }
           },
           "imports": [
@@ -263,33 +251,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNet.Mvc": {
-              "target": "Package",
-              "version": "[5.3.0, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.0-preview.2.23153.2, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[8.0.0-preview.2.23153.2, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Core": {
-              "target": "Package",
-              "version": "[2.2.5, )"
-            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[8.0.0-rc.2.23480.2, )"
+              "version": "[8.0.0-preview.2.23153.2, )"
             },
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[8.0.0-rc.2.23480.1, )"
+              "version": "[8.0.0-preview.2.23153.2, )"
             }
           },
           "imports": [
@@ -354,6 +326,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23153.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23153.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
