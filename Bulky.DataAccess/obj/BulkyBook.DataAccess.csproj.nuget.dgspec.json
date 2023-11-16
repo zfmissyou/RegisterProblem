@@ -56,29 +56,29 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0-preview.2.23153.2, )"
+              "version": "[8.0.0-rc.2.23480.2, )"
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[8.0.0-preview.2.23153.2, )"
+              "version": "[8.0.0-rc.2.23480.2, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
+              "version": "[8.0.0-rc.2.23480.1, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
+              "version": "[8.0.0-rc.2.23480.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
+              "version": "[8.0.0-rc.2.23480.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
+              "version": "[8.0.0-rc.2.23480.1, )"
             }
           },
           "imports": [
@@ -146,7 +146,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[8.0.0-preview.2.23153.2, )"
+              "version": "[8.0.0-rc.2.23480.2, )"
             },
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
@@ -154,7 +154,7 @@
             },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[8.0.0-preview.2.23153.2, )"
+              "version": "[8.0.0-rc.2.23480.2, )"
             }
           },
           "imports": [
@@ -222,11 +222,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[8.0.0-preview.2.23153.2, )"
+              "version": "[8.0.0-rc.2.23480.2, )"
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[8.0.0-preview.2.23153.2, )"
+              "version": "[8.0.0-rc.2.23480.2, )"
             }
           },
           "imports": [
